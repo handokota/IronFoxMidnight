@@ -47,7 +47,7 @@ jobs:
           exit 0
       
       - name: Check out repository code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: Run build script
         run: |
@@ -68,7 +68,7 @@ jobs:
           mv signed.apk ${{ env.APK_NAME }}
       
       - name: Publish release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.BUILD_VERSION }}
           body: ${{ env.RELEASE_NOTES }}
