@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/ironfox.png" alt="IronFox Midnight Logo" height="160">
   <h1>IronFox Midnight</h1>
-  <p>OLED-optimized <a href="https://gitlab.com/ironfox-oss/IronFox">IronFox</a> browser with true midnight dark mode.</p>
+  <p>OLED-optimized IronFox browser with true midnight dark mode.</p>
 
   <div align="center">
     <img alt="Version" src="https://img.shields.io/github/v/release/handokota/IronFoxMidnight?color=2d2d2d&style=flat-square">
@@ -37,3 +37,7 @@
 - Low-light browsing comfort
 - Battery efficiency focus
 - Designed for dark theme enthusiasts
+
+## Credits
+- [IronFox](https://gitlab.com/ironfox-oss/IronFox) for the original browser this project is based on
+- [ArtikusHG/IronFox-OLEDDark](https://github.com/ArtikusHG/Ironfox-OLEDDark) for the inspiration of OLED dark mode implementation
