@@ -26,8 +26,8 @@ sed -i 's/<color name="button_material_dark">.*/<color name="button_material_dar
 sed -i 's/ff1c1b22/ff000000/g' patched/smali*/mozilla/components/ui/colors/PhotonColors.smali
 sed -i 's/ff2b2a33/ff000000/g' patched/smali*/mozilla/components/ui/colors/PhotonColors.smali
 sed -i 's/ff42414d/ff15141a/g' patched/smali*/mozilla/components/ui/colors/PhotonColors.smali
-sed -i 's/ff52525e/ff23212b/g' patched/smali*/mozilla/components/ui/colors/PhotonColors.smali
-sed -i 's/ff5b5b66/ff2b2936/g' patched/smali*/mozilla/components/ui/colors/PhotonColors.smali
+sed -i 's/ff52525e/ff25232e/g' patched/smali*/mozilla/components/ui/colors/PhotonColors.smali
+sed -i 's/ff5b5b66/ff2d2b38/g' patched/smali*/mozilla/components/ui/colors/PhotonColors.smali
 sed -i 's/1c1b22/000000/g' patched/assets/extensions/readerview/readerview.css
 sed -i 's/eeeeee/e3e3e3/g' patched/assets/extensions/readerview/readerview.css
 sed -i 's/mipmap\/ic_launcher_round/drawable\/ic_launcher_foreground/g' patched/res/drawable-v23/splash_screen.xml
